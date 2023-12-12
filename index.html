@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <title>Profile</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="specific-styles.css"> 
 </head>
 <body>
-    <h1>Hi, I am Bhasskar</h1>
-    <p>Contact me at: bhasskar.k8@gmail.com</p>
-    <p>Find my Resume below:</p>
-    <iframe src="Resume/Bhasskar-FSE-3.pdf" width="800" height="600" frameborder="0" scrolling="auto"></iframe>
-    <img src="images/self.jpg" alt="Bhasskar's Photo" class="profile-img">
-    <p>Welcome to my personal website! I'm Bhasskar, a self-motivated software engineer passionate about creating scalable products and solving complex problems.</p>
-    <p>I have experience in full-stack development, DevOps, cloud services, and machine learning. Reach out to me for collaboration or opportunities!</p>
-    <p>Some of my hobbies include traveling, surfing, snowboarding, trekking, and playing football and cricket. I'm also a home barista and enjoy playing the violin in my free time.</p>
+    <div class="background-container">
+       
+        <img src="images/self.jpeg" alt="Profile Picture" class="profile-bg">
+        
+        <div class="about-me">
+            <h1>Hi, I am Bhasskar</h1>
+            <p>Welcome to my website! I'm a self-motivated software engineer passionate about creating scalable products and solving complex problems.</p>
+            <p>Some of my hobbies include traveling, surfing, snowboarding, trekking, and playing football and cricket.</p>
+            <a href="#resume" class="resume-link">Expand Resume</a>
+        </div>
+    </div>
+
+    <div id="resume" class="resume-content">
+        <div class="skills-container">
+            <h2>My Skills</h2>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h3>Programming Languages</h3>
+                    <span class="exp-years">4 years</span>
+                </div>
+                <div class="skill-description">
+                    <p>
+                        Proficient in C#, Python, and JavaScript. 
+                        Extensive experience in developing applications using these languages.
+                    </p>
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>Developing and maintaining backend systems.</li>
+                        <li>Implementing algorithms and data structures.</li>
+                        
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
