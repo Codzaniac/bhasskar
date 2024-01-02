@@ -71,7 +71,8 @@ h2 {
 #dpic img {
     width: 220px;
     height: 220px;
-    border-radius: 120px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .iico {
     width: 40px;
